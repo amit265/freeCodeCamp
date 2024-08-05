@@ -2,6 +2,18 @@
 <html lang="en">
 
 <head>
+    <meta name="description" content="Craft a Technical Documentation using HTML and CSS." />
+    <meta name="keywords"
+        content="Technical Documentation, HTML, CSS, artistic design, creative web design, responsive layout" />
+    <meta property="og:title" content="Technical Documentation" />
+    <meta property="og:description" content="Craft a Technical Documentation using HTML and CSS." />
+    <meta property="og:image" content="https://coderespite.com/image/responsive/technical-documentation.png" />
+    <meta property="og:url" content="https://coderespite.com/projects/responsive/technical-documentation" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Technical Documentation" />
+    <meta name="twitter:description" content="Craft a Technical Documentation using HTML and CSS." />
+    <meta name="twitter:image" content="https://coderespite.com/image/responsive/technical-documentation.png" />
+
     <meta charset="UTF-8">
     <link rel="stylesheet" href="styles.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,20 +25,48 @@
         <header>
             <h1 class="nav_heading">JS Documentation</h1>
             <ul>
-                <a href="#1"><li class="nav">Introduction</li></a>
-                <a href="#3"><li class="nav">JavaScript and Java</li></a>
-                <a href="#4"><li class="nav">Hello world</li></a>
-                <a href="#5"><li class="nav">Variables</li></a>
-                <a href="#2"><li class="nav">What you should already know</li></a>
-                <a href="#6"><li class="nav">Declaring variables</li></a>
-                <a href="#7"><li class="nav">Variable scope</li></a>
-                <a href="#8"><li class="nav">Global variables</li></a>
-                <a href="#9"><li class="nav">Constants</li></a>
-                <a href="#10"><li class="nav">Data types</li></a>
-                <a href="#11"><li class="nav">if...else statement</li></a>
-                <a href="#13"><li class="nav">while statement</li></a>
-                <a href="#13"><li class="nav">Function declarations</li></a>
-                <a href="#14"><li class="nav">Reference</li></a>
+                <a href="#1">
+                    <li class="nav">Introduction</li>
+                </a>
+                <a href="#3">
+                    <li class="nav">JavaScript and Java</li>
+                </a>
+                <a href="#4">
+                    <li class="nav">Hello world</li>
+                </a>
+                <a href="#5">
+                    <li class="nav">Variables</li>
+                </a>
+                <a href="#2">
+                    <li class="nav">What you should already know</li>
+                </a>
+                <a href="#6">
+                    <li class="nav">Declaring variables</li>
+                </a>
+                <a href="#7">
+                    <li class="nav">Variable scope</li>
+                </a>
+                <a href="#8">
+                    <li class="nav">Global variables</li>
+                </a>
+                <a href="#9">
+                    <li class="nav">Constants</li>
+                </a>
+                <a href="#10">
+                    <li class="nav">Data types</li>
+                </a>
+                <a href="#11">
+                    <li class="nav">if...else statement</li>
+                </a>
+                <a href="#13">
+                    <li class="nav">while statement</li>
+                </a>
+                <a href="#13">
+                    <li class="nav">Function declarations</li>
+                </a>
+                <a href="#14">
+                    <li class="nav">Reference</li>
+                </a>
             </ul>
 
         </header>
@@ -48,11 +88,13 @@
                         be extended for a variety of purposes by supplementing it with additional objects; for example:
                     </p>
                     <ul>
-                        <li class = "subtopic">Client-side JavaScript extends the core language by supplying objects to control a browser
+                        <li class="subtopic">Client-side JavaScript extends the core language by supplying objects to
+                            control a browser
                             and its Document Object Model (DOM). For example, client-side extensions allow an
                             application to place elements on an HTML form and respond to user events such as mouse
                             clicks, form input, and page navigation. </li>
-                        <li class = "subtopic"> Server-side JavaScript extends the core language by supplying objects relevant to running
+                        <li class="subtopic"> Server-side JavaScript extends the core language by supplying objects
+                            relevant to running
                             JavaScript on a server. For example, server-side extensions allow an application to
                             communicate with a database, provide continuity of information from one invocation to
                             another of the application, or perform file manipulations on a server. </li>
@@ -64,9 +106,10 @@
 
                 <p>This guide assumes you have the following basic background:</p>
                 <ul>
-                    <li class = "subtopic">A general understanding of the Internet and the World Wide Web (WWW). </li>
-                    <li class = "subtopic">Good working knowledge of HyperText Markup Language (HTML).</li>
-                    <li class = "subtopic"> Some programming experience. If you are new to programming, try one of the tutorials linked on
+                    <li class="subtopic">A general understanding of the Internet and the World Wide Web (WWW). </li>
+                    <li class="subtopic">Good working knowledge of HyperText Markup Language (HTML).</li>
+                    <li class="subtopic"> Some programming experience. If you are new to programming, try one of the
+                        tutorials linked on
                         the main page about JavaScript. </li>
                 </ul>
 
@@ -164,7 +207,7 @@
 
 
             <div id="8" class="topic">
-            <h2>Global variables</h2>
+                <h2>Global variables</h2>
                 <p> Global variables are in fact properties of the global object. In web pages the global object is
                     window, so you can set and access global variables using the window.variable syntax. </p>
                 <p> Consequently, you can access global variables declared in one window or frame from another window or
@@ -174,7 +217,7 @@
 
 
             <div id="9" class="topic">
-            <h2>Constants</h2>
+                <h2>Constants</h2>
                 <p> You can create a read-only, named constant with the const keyword. The syntax of a constant
                     identifier is the same as for a variable identifier: it must start with a letter, underscore or
                     dollar sign and can contain alphabetic, numeric, or underscore characters. </p>
@@ -198,23 +241,25 @@
 
 
             <div id="10" class="topic">
-            <h2>Data types</h2>
+                <h2>Data types</h2>
                 <p>The latest ECMAScript standard defines seven data types:</p>
                 <ul>
-                    <li class = "subtopic">Six data types that are primitives:
-                    <li class = "subtopic">
+                    <li class="subtopic">Six data types that are primitives:
+                    <li class="subtopic">
                         Boolean. true and false.
                     </li>
-                    <li class = "subtopic"> null. A special keyword denoting a null value. Because JavaScript is case-sensitive, null is
+                    <li class="subtopic"> null. A special keyword denoting a null value. Because JavaScript is
+                        case-sensitive, null is
                         not the same as Null, NULL, or any other variant. </li>
-                    <li class = "subtopic"> undefined. A top-level property whose value is undefined. </li>
-                    <li class = "subtopic">Number. 42 or 3.14159.</li>
-                    <li class = "subtopic">String. "Howdy"</li>
-                    <li class = "subtopic"> Symbol (new in ECMAScript 2015). A data type whose instances are unique and immutable. </li>
+                    <li class="subtopic"> undefined. A top-level property whose value is undefined. </li>
+                    <li class="subtopic">Number. 42 or 3.14159.</li>
+                    <li class="subtopic">String. "Howdy"</li>
+                    <li class="subtopic"> Symbol (new in ECMAScript 2015). A data type whose instances are unique and
+                        immutable. </li>
 
 
                     </li>
-                    <li class = "subtopic">
+                    <li class="subtopic">
                         and Object
                     </li>
 
@@ -229,7 +274,7 @@
 
 
             <div id="11" class="topic">
-            <h2>if...else statement</h2>
+                <h2>if...else statement</h2>
                 <p> Use the if statement to execute a statement if a logical condition is true. Use the optional else
                     clause to execute a statement if the condition is false. An if statement looks as follows: </p>
                 <code>if (condition) { statement_1; } else { statement_2; }</code>
@@ -264,56 +309,64 @@
 
 
             <div id="12" class="topic">
-            <h2>while statement</h2>
-                <p> A while statement executes its statements as long as a specified condition evaluates to true. A while statement looks as follows: </p>
+                <h2>while statement</h2>
+                <p> A while statement executes its statements as long as a specified condition evaluates to true. A
+                    while statement looks as follows: </p>
                 <code>while (condition) statement</code>
-                <p> If the condition becomes false, statement within the loop stops executing and control passes to the statement following the loop. </p>
-                <p> The condition test occurs before statement in the loop is executed. If the condition returns true, statement is executed and the condition is tested again. If the condition returns false, execution stops and control is passed to the statement following while. </p>
+                <p> If the condition becomes false, statement within the loop stops executing and control passes to the
+                    statement following the loop. </p>
+                <p> The condition test occurs before statement in the loop is executed. If the condition returns true,
+                    statement is executed and the condition is tested again. If the condition returns false, execution
+                    stops and control is passed to the statement following while. </p>
                 <p> To execute multiple statements, use a block statement ({ ... }) to group those statements. </p>
                 <p> Example: </p>
                 <p> The following while loop iterates as long as n is less than three: </p>
-                <code>var n = 0; var x = 0; while (n < 3) { n++; x += n; }</code>
-                <p>With each iteration, the loop increments n and adds that value to x. Therefore, x and n take on the following values: </p>
-                    <ul>
-                        <li class = "subtopic">After the first pass: n = 1 and x = 1</li>
-                        <li class = "subtopic">After the second pass: n = 2 and x = 3</li>
-                        <li class = "subtopic">After the third pass: n = 3 and x = 6</li>
-                    
-                    </ul>
-                    <p> After completing the third pass, the condition n < 3 is no longer true, so the loop terminates. </p>
+                <code>var n = 0; var x = 0; while (n < 3) { n++; x +=n; }</code> <p>With each iteration, the loop
+                        increments n and adds that value to x. Therefore, x and n take on the following values: </p>
+                        <ul>
+                            <li class="subtopic">After the first pass: n = 1 and x = 1</li>
+                            <li class="subtopic">After the second pass: n = 2 and x = 3</li>
+                            <li class="subtopic">After the third pass: n = 3 and x = 6</li>
 
-            </div>
+                        </ul>
+                        <p> After completing the third pass, the condition n < 3 is no longer true, so the loop
+                                terminates. </p> </div> <div id="13" class="topic">
+                                <h2>Function declarations</h2>
+
+                                <p> A function definition (also called a function declaration, or function statement)
+                                    consists of the function keyword, followed by: </p>
+                                <ul>
+                                    <li class="subtopic">The name of the function.</li>
+                                    <li class="subtopic"> A list of arguments to the function, enclosed in parentheses
+                                        and separated by commas. </li>
+                                    <li class="subtopic"> The JavaScript statements that define the function, enclosed
+                                        in curly brackets, { }. </li>
+                                </ul>
+
+                                <p> For example, the following code defines a simple function named square: </p>
+                                <code>function square(number) { return number * number; }</code>
+
+                                <p> The function square takes one argument, called number. The function consists of one
+                                    statement that says to return the argument of the function (that is, number)
+                                    multiplied by itself. The return statement specifies the value returned by the
+                                    function. </p>
 
 
-            <div id="13" class="topic">
-            <h2>Function declarations</h2>
-
-                <p> A function definition (also called a function declaration, or function statement) consists of the function keyword, followed by: </p>
-                <ul>
-                    <li class = "subtopic">The name of the function.</li>
-                    <li class = "subtopic"> A list of arguments to the function, enclosed in parentheses and separated by commas. </li>
-                    <li class = "subtopic"> The JavaScript statements that define the function, enclosed in curly brackets, { }. </li>
-                </ul>
-
-                <p> For example, the following code defines a simple function named square: </p>
-                <code>function square(number) { return number * number; }</code>
-           
-           <p> The function square takes one argument, called number. The function consists of one statement that says to return the argument of the function (that is, number) multiplied by itself. The return statement specifies the value returned by the function. </p>
-           
-
-           <code>return number * number;</code>
-           <p> Primitive parameters (such as a number) are passed to functions by value; the value is passed to the function, but if the function changes the value of the parameter, this change is not reflected globally or in the calling function. </p>
+                                <code>return number * number;</code>
+                                <p> Primitive parameters (such as a number) are passed to functions by value; the value
+                                    is passed to the function, but if the function changes the value of the parameter,
+                                    this change is not reflected globally or in the calling function. </p>
             </div>
 
 
             <div id="14" class="topic">
-            <h2>Reference</h2>
+                <h2>Reference</h2>
 
                 <u>
-                    <li class = "subtopic">
+                    <li class="subtopic">
 
                         All the documentation in this page is taken from MDN
-                    
+
                     </li>
                 </u>
             </div>
